@@ -28,6 +28,11 @@ npm install zqz-ui -S
 ### Quick Start
 
 ```bash
+// main.js
+import ZqzUI from 'zqz-ui';
+
+Vue.use(ZqzUI);
+
 // 组件中使用
 <template>
     <swiper ref="swiper" :delay="3000" :speed="300" :auto="false" :indicatorColor="'pink'" :indicatorActiveColor="'red'" @change="onSwiperChange">
